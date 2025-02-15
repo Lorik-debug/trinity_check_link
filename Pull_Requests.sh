@@ -66,7 +66,7 @@ done
 git push origin "$BRANCH_NAME"
 
 # Створюємо Pull Request через GitHub CLI
-gh pr create --base main --head "$BRANCH_NAME" --title $BRANCH_NAME --body "This PR adds $ITERATIONS randomly generated scripts."
+gh pr create --base main --head "$BRANCH_NAME" --title $BRANCH_NAME --body "This PR adds $ITERATIONS fix generated scripts."
 
 echo "✅ Pull Request створено для гілки: $BRANCH_NAME"
 
