@@ -47,6 +47,6 @@ for ((i=1; i<=ITERATIONS; i++)); do
 done
 
 # Пушимо всі коміти разом
-git push origin main  # Або master, якщо у вас така гілка
+git push origin master  # Або master, якщо у вас така гілка
 
 echo "✅ Успішно створено $ITERATIONS випадкових файлів та запушено в репозиторій!"
